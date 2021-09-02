@@ -1,1 +1,27 @@
 /* Стилизация аккордеона */
+
+* {
+  box-sizing: border-box;
+}
+
+details {
+  padding: 24px 32px;
+  border: solid 1px #acb5bd;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  width: 730px;
+}
+
+details[open] {
+  background-color: rgb(200, 238, 223);
+  padding-bottom: 32px;
+}
+
+summary {
+  list-style: circle;
+}
+
+/* Не рабоает почему-то
+.accordion:last-child {
+  color: red;
+}*/
